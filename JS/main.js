@@ -30,6 +30,9 @@ while( tipoCompuerta != 1 && tipoCompuerta != 2 )  {
 class Compuerta {
 	constructor(tipo, entrada1, entrada2){
 		this.tipo = tipo.toUpperCase();
+		this.entrada1 = entrada1;
+		this.entrada2 = entrada2;
+		
 	}
 	resultadoAND(){
 		let resolverAND;
